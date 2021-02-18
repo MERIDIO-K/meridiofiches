@@ -1,0 +1,167 @@
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    float:center ;
+    width: 20%;
+    text-align: center;
+    position: relative;
+}
+nav a:hover{
+    color: orange;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position:absolute;
+    width: 110%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+	color: orange;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.deroulant > a::after{
+    content:" ";
+    font-size: 12px;
+}
+body
+{
+	margin: 10px 0 ;
+	padding: 0 ;
+	text-align: center ;
+	font: 0.8em "Trebuchet MS", helvetica, sans-serif ;
+	background-image: url("FOND.jpg");
+}
+div#conteneur
+{
+	width: 1000px ;
+	margin: 0 auto ;
+	text-align: left ;
+	border: 2px solid rgb(0, 0, 0)d;
+	background: #fff ;
+}
+div#content
+{
+	width: 7px ;
+	margin: 0 auto ;
+	text-align: left ;
+	border: 2px solid rgb(0, 0, 0);
+	background: #fff ;
+}
+h1#header
+{
+	height: 25px ;
+	margin: 0 ;
+}
+h1#header a
+{
+	width: 40px ;
+	height: 70px ;
+	display: block ;
+	position: relative ;
+	left: 350px ;
+	top: 15px ;
+	text-indent: -5000px ;
+}
+ul#menu
+{
+	height: 40px ;
+	margin: 0 ;
+	padding: 0 ;
+	list-style-type: none ;
+}		
+ul#menu li
+{
+	float: left ;
+	text-align: center ;
+}
+ul#menu li a
+{
+	width: 170px ;
+	line-height: 25px ;
+	font-size: 1.2em ;
+	font-weight: bold ;
+	letter-spacing: 2px ;
+	color: rgb(0, 0, 0) ;
+	display: block ;
+	text-decoration: none ;
+	
+}
+ul#menu li a:hover
+{
+	color:rgb(255, 0, 0)
+}
+div#contenu 
+{
+	padding: 0 25px 0 10px ;
+}
+div#contenu h2 
+{
+	padding-left: 25px ;
+	line-height: 25px ;
+	font-size: 1.4em ;
+	color:  rgb(0, 156, 196) ;
+	border-bottom: 1px solid  rgb(0, 156, 196) ;
+	
+}
+div#contenu h3
+{
+	margin-left: 50px ;
+	padding-left: 5px ;
+	border-left: 3px solid  rgb(0, 156, 196) ;
+	color:  rgb(0, 156, 196) ;
+	
+}
+p#h3
+{
+	margin-left: 25px ;
+	padding-left: 5px ;
+	text-align: justify ;
+	
+}
+div#contenu h4
+{
+	margin-left: 15px ;
+	padding-left: 75px ;
+	color:  rgb(0, 156, 196) ;
+}
+div#contenu p
+{
+	text-align: justify ;
+	text-indent: 2em ;
+	line-height: 1.7em ;
+}
+div#contenu a
+{
+	color:  rgb(0, 156, 196);
+}
+div#contenu a:hover
+{
+	width: 150px ;
+	color:  rgb(0, 156, 196) ;
+}
+p#footer 
+{
+	margin: 0 ;
+	padding-right: 10px ;
+	line-height: 30px ;
+	text-align: center ;
+	color: rgb(0, 0, 0) ;
+}
